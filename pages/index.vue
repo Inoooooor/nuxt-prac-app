@@ -1,5 +1,6 @@
 <template>
-  <div class="bg-green-500">Home page</div>
+  <div class="">Home page</div>
+  <button class="btn">TW test btn</button>
 </template>
 
 <script setup></script>
