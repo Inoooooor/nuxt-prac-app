@@ -1,10 +1,14 @@
 <template>
   <div>product item</div>
-  <a href="/products/t-shirt">t-shirt </a>
-  <a href="/products/longsliv">longsliv </a>
-  <a href="/products/t-shirt">t-shirt </a>
+  <NuxtLink to="/products/t-shirt">t-shirt </NuxtLink>
+  <NuxtLink to="/products/longsliv">longsliv </NuxtLink>
+  <NuxtLink to="/products/t-shirt">t-shirt </NuxtLink>
 </template>
 
-<script setup></script>
+<script setup>
+definePageMeta({
+  layout: "products",
+})
+</script>
 
 <style lang="scss" scoped></style>

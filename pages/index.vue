@@ -1,5 +1,5 @@
 <template>
-  <div>Home page</div>
+  <div class="bg-green-500">Home page</div>
 </template>
 
 <script setup></script>
