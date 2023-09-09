@@ -8,9 +8,9 @@
       </ul>
     </nav>
   </header>
-  <div class="container mx-auto p-4">
+  <main class="container mx-auto p-4">
     <slot />
-  </div>
+  </main>
   <footer class="shadow-sm bg-white">
     <ul class="container mx-auto p-4 flex justify-around gap-4">
       <li><NuxtLink to="/">Home</NuxtLink></li>
