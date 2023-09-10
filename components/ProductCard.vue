@@ -3,7 +3,7 @@
     <img
       :src="product.image"
       :title="product.title"
-      class="thumb h-1/2"
+      class="thumb h-1/2 object-contain"
     />
     <p class="title m-4 truncate">{{ product.title }}</p>
     <NuxtLink :to="`/products/${product.id}`">

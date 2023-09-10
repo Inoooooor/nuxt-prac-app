@@ -5,6 +5,7 @@
         <li><NuxtLink to="/">Home</NuxtLink></li>
         <li><NuxtLink to="/about">About</NuxtLink></li>
         <li><NuxtLink to="/products">Products</NuxtLink></li>
+        <li><NuxtLink to="/products/mario">Mario</NuxtLink></li>
       </ul>
     </nav>
   </header>
